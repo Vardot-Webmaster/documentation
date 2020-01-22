@@ -34,7 +34,7 @@ This material will be rolled into the general documentation as we fill out the d
 
    3. Automated Deployment Settings.
 
-      Devshop allows for automated code deployments on any environment by setting up webhooks that will notify devshop on code changes.
+      Devshop allows for automated code deployments on any environment by setting up webhooks that will notify Devshop on code changes.
 
    4. Environments Creation.
 
@@ -42,7 +42,7 @@ This material will be rolled into the general documentation as we fill out the d
 
    5. Installation method selection.
 
-      In case of new projects Devshop will detect which installation profile to use when installing the new environment, in case of crating on an existing project you will be able to clone existing environments as well as empty databse or from a database dump file.
+      In case of new projects Devshop will detect which installation profile to use when installing the new environment, in case of crating on an existing project you will be able to clone existing environments as well as empty database or from a SQL dump file.
 3. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
 4. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
    * Create Environments for Pull Requests
