@@ -15,15 +15,15 @@ This material will be rolled into the general documentation as we fill out the d
 ### Unit 1: Getting DevShop
 
 1. **Preparing for DevShop**: Domain names and DNS. 1. Buy a domain name or choose a subdomain on an existing domain. 2. DNS Setup.
-2.  **Get DevShop**: how to install devshop on your own server. 1. _install.sh_: [Standalone install script](https://github.com/opendevshop/devshop/blob/1.x/install.sh). 2. _Docker_: Getting devshop running on Docker with our [Docker Container](https://hub.docker.com/r/devshop/devmaster/). 3. _Vagrant_: Launch a vagrant image of devshop with our [built in Vagrantfile](https://github.com/opendevshop/devshop/blob/1.x/Vagrantfile). 4. _Ansible_: Configure a devshop server with our [Devmaster Ansible Role](https://galaxy.ansible.com/opendevshop/devmaster/).
+2. **Get DevShop**: how to install devshop on your own server. 1. _install.sh_: [Standalone install script](https://github.com/opendevshop/devshop/blob/1.x/install.sh). 2. _Docker_: Getting devshop running on Docker with our [Docker Container](https://hub.docker.com/r/devshop/devmaster/). 3. _Vagrant_: Launch a vagrant image of devshop with our [built in Vagrantfile](https://github.com/opendevshop/devshop/blob/1.x/Vagrantfile). 4. _Ansible_: Configure a devshop server with our [Devmaster Ansible Role](https://galaxy.ansible.com/opendevshop/devmaster/).
 
 ### Unit 2: Using DevShop
 
 1. **Create a codebase**: How to add Drupal to a git repository. 1. Rules for a good codebase. 2. Create a new git repository. 3. Download drupal into it. 4. Push the new code up to your git repository.
-2.  **Create Projects**: How to start new Drupal projects. 1. Adding new projects. 2. Setting up Git Access. 3. Automated Deployment Settings. 4. Environments Creation. 5. Installation Profile selection.
+2. **Create Projects**: How to start new Drupal projects. 1. Adding new projects. 2. Setting up Git Access. 3. Automated Deployment Settings. 4. Environments Creation. 5. Installation Profile selection.
 3. **Create Environments**: How to launch new sites for your project. 1. Create New Environment: Run install profile. 2. Clone Environment. 3. Fork Environment.
 4. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
-5.  **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
+5. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
    * Create Environments for Pull Requests
    * Delete Pull Request Environments
    * Pull Request Environment Creation Method

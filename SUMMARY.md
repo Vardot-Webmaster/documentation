@@ -23,7 +23,6 @@
 * [Migrating sites into DevShop](using-devshop/migrating-sites-into-devshop.md)
 * [Customizing settings.php](using-devshop/customizing-settings.php.md)
 * [Automated Testing](using-devshop/automated-testing.md)
-* [Acquia Cloud Hooks Integration](using-devshop/acquia-cloud-hooks-integration.md)
 * [Remote Servers](using-devshop/remote-servers.md)
 * [Going Live](using-devshop/going-live.md)
 * [Scaling](using-devshop/scaling.md)

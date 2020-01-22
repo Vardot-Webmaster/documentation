@@ -21,7 +21,7 @@ At this point, you can either _Enable_ the environment or _Delete_ the environme
 
 If you are sure you want to delete the environment:
 
-1. Click the _Environment Settings_ icon ![Push this button to open Environment Settings.](../.gitbook/assets/settings%20%281%29.png) on your disabled environment.
+1. Click the _Environment Settings_ icon ![Push this button to open Environment Settings.](../.gitbook/assets/settings-1.png) on your disabled environment.
 2. Click _Delete_.
 3. On the confirmation page, click the _Delete_ button.  _You will not be able to recover once you press this button._
 4. Once the _Delete Task_ runs, the environment will disappear from the Project Dashboard.

@@ -22,7 +22,7 @@ Now log onto the master server
     `root@local:~# chmod +x /etc/ansible/hosts`
    ```
 
-5. Enable the required modules `drush @hostmaster en ansible_services aegir_ansible_inventory` 
+5. Enable the required modules `drush @hostmaster en ansible_services aegir_ansible_inventory`
 
 Now you can use the GUI to provision a host`*`
 

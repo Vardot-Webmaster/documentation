@@ -1,5 +1,7 @@
 # Using SSL
 
+**KKU SSL is handled on firewall level, ignore following** 
+
 DevShop & Aegir now include the "Hosting HTTPS" package, which supersedes "Hosting SSL".
 
 Hosting HTTPS also includes LetsEncrypt support, allowing free certificates for all your sites, as long as they have a public DNS record!

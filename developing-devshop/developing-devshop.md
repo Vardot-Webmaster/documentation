@@ -41,14 +41,14 @@ The only tools you need on your host machine to develop devshop are:
   robo prepare:containers 1001
   ```
 
-1. Run `robo up` script to clone the rest of the source code and launch the docker containers.
-2. That's it! Look for a one-time login link that looks like:
+* Run `robo up` script to clone the rest of the source code and launch the docker containers.
+* That's it! Look for a one-time login link that looks like:
 
-   ```text
-   http://devshop.local.computer/user/reset/1/1475596064/EzLbpsTpSgKLJl7GmO0
-   ```
+  ```text
+  http://devshop.local.computer/user/reset/1/1475596064/EzLbpsTpSgKLJl7GmO0
+  ```
 
-   The `docker logs` will remain open. Press CTRL-C to cancel out of the logs if you wish, the containers will still run.
+  The `docker logs` will remain open. Press CTRL-C to cancel out of the logs if you wish, the containers will still run.
 
 ## Robo
 

@@ -8,7 +8,7 @@ description: >-
 
 DevShop is based on a standard LAMP stack architecture, with Drush.
 
-Drush can be used to export and import databases and copy files for your sites. 
+Drush can be used to export and import databases and copy files for your sites.
 
 ## What you need
 
@@ -22,9 +22,9 @@ If your site has never been in git, we recommend putting everything on your serv
 * Any tar.gz files that may have been left behind.
 * Any Drupal site files: those are considered content, and while important, are usually not stored in git.
 
-### Database 
+### Database
 
-MySQL databases are backed up and moved around by exporting them to SQL files. 
+MySQL databases are backed up and moved around by exporting them to SQL files.
 
 You can do this on the command line with `mysqldump` or a web based tool like PHPMyAdmin.
 
@@ -65,7 +65,6 @@ aegir@devshop:~$ drush sa
 @myproject
 @myproject.dev
 @myproject.dev.mydevshop.com
-
 ```
 
 Once you know the site you want to import, you can use the alias and drush commands to import the database and files.
@@ -77,28 +76,26 @@ Use the `sql-connect` or `sqlc` command to import your database file.
 You can use the "&lt;" character to import an SQL file into the site:
 
 ```text
-drush @myproject.dev sqlc < database.sql 
+drush @myproject.dev sqlc < database.sql
 ```
 
 ### Step 4: Import your files
 
 #### Drush rsync
 
-You can use Drush's "rsync" command to easily copy files into the right location. It is just a wrapper for rsync that can translate Drush Alias information for you. 
+You can use Drush's "rsync" command to easily copy files into the right location. It is just a wrapper for rsync that can translate Drush Alias information for you.
 
 The `drush rsync` command behaves just like the rsync command: `drush rsync SOURCE DESTINATION`.
 
 Source and Destination can be either local or remote. If it is remote, you must have SSH access.
 
-For Example, if your Drupal files is on another server called `server` in the folder `/var/www/html/files` , you can run the following command to sync the files from that server, as long as the user named `user` has SSH access: 
+For Example, if your Drupal files is on another server called `server` in the folder `/var/www/html/files` , you can run the following command to sync the files from that server, as long as the user named `user` has SSH access:
 
 ```text
 aegir@devshop:~$ drush rsync user@server:/var/www/files @myproject.dev:%files
 ```
 
-  
-The `%files` at the end of that command is a "drush path alias", it always points to the active drupal files directory, so it's best to use that. as the path is different for each environment.![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)  
-
+The `%files` at the end of that command is a "drush path alias", it always points to the active drupal files directory, so it's best to use that. as the path is different for each environment.![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 
 ## Alternatives
 
