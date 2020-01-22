@@ -40,14 +40,15 @@ This material will be rolled into the general documentation as we fill out the d
 
       Devshop will prompt you to setup your environments choosing the subdomain and branch/tag.
 
-   5. Installation Profile selection.
-3. **Create Environments**: How to launch new sites for your project. 1. Create New Environment: Run install profile. 2. Clone Environment. 3. Fork Environment.
-4. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
-5. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
+   5. Installation method selection.
+
+      In case of new projects Devshop will detect which installation profile to use when installing the new environment, in case of crating on an existing project you will be able to clone existing environments as well as empty databse or from a database dump file.
+3. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
+4. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
    * Create Environments for Pull Requests
    * Delete Pull Request Environments
    * Pull Request Environment Creation Method
-6. **Environment Settings**
+5. **Environment Settings**
    1. Lock Database.
    2. Disable Deploy on Commit.
    3. Deployment Hooks.
@@ -56,7 +57,7 @@ This material will be rolled into the general documentation as we fill out the d
    6. HTTP Basic Authentication: Password protect your site.
    7. Error logs: Making logs available.
    8. SSL.
-7. **Environment Dashboard**
+6. **Environment Dashboard**
    1. Environment name, git version, Drupal version, environment status indicators.
    2. Domains list.
    3. Log in button.
@@ -82,27 +83,27 @@ This material will be rolled into the general documentation as we fill out the d
        9. Run Cron.
        10. Run DB Updates.
        11. Backup.
-8. **Importing Sites**
+7. **Importing Sites**
    1. Site Migration primer: Database, Files, Code.
    2. Using DevShop Drush Aliases.
    3. Adding "Remote Aliases" for Deploying Data.
    4. Using the command line.
-9. **Connecting to Devshop**
+8. **Connecting to Devshop**
    1. My Account &gt; SSH Keys.
    2. Always SSH as aegir@server\_master.
    3. Drush Aliases are available on the project dashboard.
-10. **Going Live.**
-    1. Selecting your Primary Environment.
-    2. Locking your Database.
-    3. Configuring Environment Domain Names & Redirection.
-    4. DNS. 
-11. **Deployment & Environment Management Strategies**
+9. **Going Live.**
+   1. Selecting your Primary Environment.
+   2. Locking your Database.
+   3. Configuring Environment Domain Names & Redirection.
+   4. DNS. 
+10. **Deployment & Environment Management Strategies**
     1. Dev + Test + Live. 
     2. Live + Pull Request Environments.
     3. Stage + Tagged Releases: Git Tag &gt; Manual Deploy on Live.
     4. Continuous Deployment: Merge to `master` &gt; Automatic Deploy to Live.
     5. Release Environments + Pull Request Environments. Create an environment with a tagged release for testing, then deploy to live.
-12. **Remote Servers**
+11. **Remote Servers**
     1. Web Servers: Apache or NGINX. Requires SSH access and sudo access to reload web server.
     2. Database Servers: Any MySQL-compatible server. Requires a database root user access.
 
