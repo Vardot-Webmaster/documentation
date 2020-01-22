@@ -16,8 +16,6 @@ The tasks must be run using the back-end CLI \(as the `aegir` user\) because the
 
 ### The `aegir` user.
 
-Apache and nginx run as their standard users \(typically www-data, apache, or nginx\).
-
 There is a special application user called `aegir` that has no extra permissions, except for the ability to call `sudo apache2ctl` or `sudo nginx` without a password, and the ability to connect to the root user of a MySQL database server.
 
 This user is also in the web-user group, so that it can change files to be in that group.
