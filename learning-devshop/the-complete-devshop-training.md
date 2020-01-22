@@ -19,8 +19,28 @@ This material will be rolled into the general documentation as we fill out the d
 
 ### Unit 2: Using DevShop
 
-1. **Create a codebase**: How to add Drupal to a git repository. 1. Rules for a good codebase. 2. Create a new git repository. 3. Download drupal into it. 4. Push the new code up to your git repository.
-2. **Create Projects**: How to start new Drupal projects. 1. Adding new projects. 2. Setting up Git Access. 3. Automated Deployment Settings. 4. Environments Creation. 5. Installation Profile selection.
+1. **Create a codebase**: How to add Drupal to a git repository.
+   1. Create a new git repository.
+   2. Download drupal into it.
+   3. Push the new code up to your git repository.
+2. **Create Projects**: How to start new Drupal projects. 
+   1. Adding new projects.
+
+      Projects can be added from the projects page and clicking on the Start a new project tab, after that you will be able to customize project settings like servers to be used, path to drupal webroot and deployment hooks. 
+
+   2. Setting up Git Access.
+
+      Devshop will provide the public key for the aegir user so it can be added to your Git repository to gain access.
+
+   3. Automated Deployment Settings.
+
+      Devshop allows for automated code deployments on any environment by setting up webhooks that will notify devshop on code changes.
+
+   4. Environments Creation.
+
+      Devshop will prompt you to setup your environments choosing the subdomain and branch/tag.
+
+   5. Installation Profile selection.
 3. **Create Environments**: How to launch new sites for your project. 1. Create New Environment: Run install profile. 2. Clone Environment. 3. Fork Environment.
 4. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
 5. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
