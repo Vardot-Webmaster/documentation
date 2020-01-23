@@ -133,9 +133,7 @@ This material will be rolled into the general documentation as we fill out the d
 
 ## Unit 4: Cloud Management
 
-1. **DevShop Cloud**: How to use DevShop to create new servers using just your API key.
-2. **DevShop Ansible**: How to use DevShop to configure and manage your servers automatically using Ansible. 
-3. **Cloud Examples**: Using Aegir Cluster & DevShop Ansible to launch multiple web servers and a load balancer.
+**This section is covered in details in the infrastructure manual.**
 
 ## Unit 5: Deeper Dive
 
@@ -153,5 +151,4 @@ This material will be rolled into the general documentation as we fill out the d
    3. Provision Commands.
    4. Separation between Web & Command Line interface.
 3. **Hosting Task Management** 1. `drush @hostmaster hosting-queued` 2. Supervisor. 3. `drush @hostmaster hosting-tasks` / `drush @hostmaster hosting-task 123` 4. Using Jenkins for Task Running with [github.com/opendevshop/hosting\_task\_jenkins](https://github.com/opendevshop/hosting_task_jenkins)
-4. **Customizations** 1. Customizing settings.php
 
