@@ -43,11 +43,25 @@ This material will be rolled into the general documentation as we fill out the d
    5. Installation method selection.
 
       In case of new projects Devshop will detect which installation profile to use when installing the new environment, in case of crating on an existing project you will be able to clone existing environments as well as empty database or from a SQL dump file.
-3. **Project Dashboard** 1. Dashboard: List all environments. 2. Project Settings. 3. Logs: Environment Task Logs. 3. Git Repository. 4. Branches & Tags. 2. Webhook Settings. 2. Drush Aliases.
-4. **Project Settings** 1. Deployment Hooks: Clear Caches, Revert Features, etc. 2. Deployment Automation: Immediate, Queued, Manual. 3. Domain Name Settings: Live Domain, automated subdomains. 4. Default Environment Settings: Default servers, default install profile. 5. Testing: Simpletest or Behat. 6. GitHub or BitBucket integration:
-   * Create Environments for Pull Requests
-   * Delete Pull Request Environments
-   * Pull Request Environment Creation Method
+3. **Project Dashboard**
+   1. Dashboard: List all environments.
+
+      Project page will list all active and inactive environments providing links to perform task on all.
+
+   2. Project Settings.
+
+      Projects settings provide a way to alter project-wide settings including deployment hooks, deployment automation, domain settings and default environment settings.
+
+   3. Logs: Environment Task Logs.
+   4. Git Repository.
+   5. Branches & Tags.
+   6. Webhook Settings.
+   7. Drush Aliases.
+4. **Project Settings** 
+   1. Deployment Hooks: Clear Caches, Revert Features, etc. 
+   2. Deployment Automation: Immediate, Queued, Manual.
+   3. Domain Name Settings: Live Domain, automated subdomains.
+   4. Default Environment Settings: Default servers, default install profile.
 5. **Environment Settings**
    1. Lock Database.
    2. Disable Deploy on Commit.
