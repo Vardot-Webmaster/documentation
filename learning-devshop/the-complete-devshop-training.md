@@ -150,5 +150,9 @@ This material will be rolled into the general documentation as we fill out the d
       * Use @hostmaster for web interface.
    3. Provision Commands.
    4. Separation between Web & Command Line interface.
-3. **Hosting Task Management** 1. `drush @hostmaster hosting-queued` 2. Supervisor. 3. `drush @hostmaster hosting-tasks` / `drush @hostmaster hosting-task 123` 4. Using Jenkins for Task Running with [github.com/opendevshop/hosting\_task\_jenkins](https://github.com/opendevshop/hosting_task_jenkins)
+3. **Hosting Task Management** 
+   1. `drush @hostmaster hosting-queued` 
+   2. Supervisor.
+   3.  `drush @hostmaster hosting-tasks` / `drush @hostmaster hosting-task 123` 
+   4. Using Jenkins for Task Running with [github.com/opendevshop/hosting\_task\_jenkins](https://github.com/opendevshop/hosting_task_jenkins)
 
