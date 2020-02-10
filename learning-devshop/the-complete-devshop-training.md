@@ -14,7 +14,9 @@ This material will be rolled into the general documentation as we fill out the d
 
 ### Unit 1: Getting DevShop
 
-1. **Preparing for DevShop**: Domain names and DNS. 1. Buy a domain name or choose a subdomain on an existing domain. 2. DNS Setup.
+1. **Preparing for DevShop**: Domain names and DNS.
+   1. Buy a domain name or choose a subdomain on an existing domain.
+   2. DNS Setup.
 2. **Get DevShop**: how to install devshop on your own server.
    1. _install.sh_: [Standalone install script](https://github.com/opendevshop/devshop/blob/1.x/install.sh).
    2. _Docker_: Getting devshop running on Docker with our [Docker Container](https://hub.docker.com/r/devshop/devmaster/).
