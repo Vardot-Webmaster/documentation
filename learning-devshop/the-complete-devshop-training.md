@@ -1,6 +1,6 @@
 # The Complete DevShop Training
 
-## Training Materials for DevShop
+## Download Drupal into it.Training Materials for DevShop
 
 This section of the Documentation is in more of a guide format.
 
@@ -15,18 +15,21 @@ This material will be rolled into the general documentation as we fill out the d
 ### Unit 1: Getting DevShop
 
 1. **Preparing for DevShop**: Domain names and DNS. 1. Buy a domain name or choose a subdomain on an existing domain. 2. DNS Setup.
-2. **Get DevShop**: how to install devshop on your own server. 1. _install.sh_: [Standalone install script](https://github.com/opendevshop/devshop/blob/1.x/install.sh). 2. _Docker_: Getting devshop running on Docker with our [Docker Container](https://hub.docker.com/r/devshop/devmaster/). 3. _Vagrant_: Launch a vagrant image of devshop with our [built in Vagrantfile](https://github.com/opendevshop/devshop/blob/1.x/Vagrantfile). 4. _Ansible_: Configure a devshop server with our [Devmaster Ansible Role](https://galaxy.ansible.com/opendevshop/devmaster/).
+2. **Get DevShop**: how to install devshop on your own server.
+   1. _install.sh_: [Standalone install script](https://github.com/opendevshop/devshop/blob/1.x/install.sh).
+   2. _Docker_: Getting devshop running on Docker with our [Docker Container](https://hub.docker.com/r/devshop/devmaster/).
+   3. _Vagrant_: Launch a vagrant image of devshop with our [built in Vagrantfile](https://github.com/opendevshop/devshop/blob/1.x/Vagrantfile).
+   4. _Ansible_: Configure a devshop server with our [Devmaster Ansible Role](https://galaxy.ansible.com/opendevshop/devmaster/).
 
 ### Unit 2: Using DevShop
 
-1. **Create a codebase**: How to add Drupal to a git repository.
+1. **Create a code base**: How to add Drupal to a git repository.
    1. Create a new git repository.
-   2. Download drupal into it.
-   3. Push the new code up to your git repository.
+   2. Push the new code up to your git repository.
 2. **Create Projects**: How to start new Drupal projects. 
    1. Adding new projects.
 
-      Projects can be added from the projects page and clicking on the Start a new project tab, after that you will be able to customize project settings like servers to be used, path to drupal webroot and deployment hooks. 
+      Projects can be added from the projects page and clicking on the Start a new project tab, after that you will be able to customize project settings like servers to be used, path to Drupal webroot and deployment hooks. 
 
    2. Setting up Git Access.
 
